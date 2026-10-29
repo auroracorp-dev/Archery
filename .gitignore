@@ -1,0 +1,24 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python and Django generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.sqlite3
+*.sqlite3-journal
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+*.log
+
+# Local tools and OS files
+.agents/
+.aws/
+.codex/
+.DS_Store
+Thumbs.db
